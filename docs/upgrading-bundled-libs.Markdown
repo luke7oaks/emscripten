@@ -19,8 +19,8 @@ To update them,
    build the system library with the new files, and do something like this
    for musl:
    `llvm-nm ~/.emscripten_cache/asmjs/libc.bc | sort`
-   and write that to the `.symbol` file. Take a look at the git diff to see
-   if anything looks odd.
+   and write that to the `.symbol` file. It may be useful to take a look at
+   the git diff to see if anything looks odd.
  * Run the test suite to make sure everything works. You can open a PR and let
    the continuous integration run it for you.
 
