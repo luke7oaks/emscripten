@@ -2,8 +2,8 @@
 Upgrading Bundled System Libraries
 ==================================
 
-This includes musl, libc++, and others whose source is bundled in our repo
-for simplicity.
+This includes musl, libc++, and others whose source is currently bundled in
+our repo.
 
 To update them,
 
